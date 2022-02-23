@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "name": "Nature calm sounds",
   "subtitle": "Nature calm sounds",
-  "description": "Enjoy calming sounds of mother nature, from calm beaches to chirping birds in a distant forest, or the cracking of camp fire, great for relaxing, studying, or falling asleep",
+  "description": "Enjoy calming sounds of mother nature, from calm beaches to chirping birds in a distant forest, or the cracking of a campfire, and more.",
   "type": "web",
   "launch_path": "/index.html",
    "icons": {
@@ -23,7 +23,7 @@
     "en-US": {
       "name": "Nature calm sounds",
       "subtitle": "Nature calm sounds",
-      "description": "Enjoy calming sounds of mother nature, from calm beaches to chirping birds in a distant forest, or the cracking of camp fire, great for relaxing, studying, or falling asleep"
+      "description": "Enjoy calming sounds of mother nature, from calm beaches to chirping birds in a distant forest, or the cracking of campfire, and more."
     },
     "ar-SA": {
       "name": "أصوات طبيعة هادئة",

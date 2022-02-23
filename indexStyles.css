@@ -64,6 +64,8 @@ h4 {
     background-image: url("images/Boat.jpg");
     background-position: left;
     opacity: 0.7;
+    margin-bottom: 20px;
+
 }
 
 .natureSoundButtons {

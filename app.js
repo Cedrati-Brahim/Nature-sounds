@@ -151,6 +151,7 @@ function setUp() {
     document.getElementById("4").style.backgroundImage = "url(icons/playIcon.png)";
     document.getElementById("5").style.backgroundImage = "url(icons/playIcon.png)";
     document.getElementById("natureSound_1").focus();
+    window.scrollTo(0, 0); 
 
 }
 
