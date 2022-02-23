@@ -32,19 +32,34 @@ h4 {
     width: var(--unified-width);
 }
 
-#firstRainSound {
+#natureSound_1 {
     background-image: url("images/rain_img_1.jpg");
     background-position: center;
     opacity: 0.7;
 }
 
-#secondRainSound {
+#natureSound_2 {
     background-image: url("images/rain_img_2.jpg");
     background-position: center;
     opacity: 0.7;
 }
 
-#thirdRainSound {
+#natureSound_3 {
+    background-image: url("images/rain_img_3.jpg");
+    background-position: left;
+    opacity: 0.7;
+}
+#natureSound_4 {
+    background-image: url("images/rain_img_3.jpg");
+    background-position: left;
+    opacity: 0.7;
+}
+#natureSound_5 {
+    background-image: url("images/rain_img_3.jpg");
+    background-position: left;
+    opacity: 0.7;
+}
+#natureSound_6 {
     background-image: url("images/rain_img_3.jpg");
     background-position: left;
     opacity: 0.7;

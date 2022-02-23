@@ -2,10 +2,13 @@ var keyLeft
 var keyCenter
 var keyRight
 var playing = false;
-var firstRainSound = new Audio("sound/rain1-looped.mp3");
-var secondRainSound = new Audio("sound/rain2-looped.mp3");
-var thirdRainSound = new Audio("sound/rain3-looped.mp3");
-var rainSound = [firstRainSound, secondRainSound, thirdRainSound];
+var Sound_1 = new Audio("sound/Forest.mp3");
+var Sound_2 = new Audio("sound/Creek.mp3");
+var Sound_3 = new Audio("sound/Fireplace.mp3");
+var Sound_4 = new Audio("sound/River.mp3");
+var Sound_5 = new Audio("sound/Coast.mp3");
+var Sound_6 = new Audio("sound/Boat_Paddling.mp3");
+var natureSounds = [Sound_1, Sound_2, Sound_3,Sound_4, Sound_5, Sound_6];
 var playedSound;
 var loop = new SeamlessLoop();
 
@@ -22,7 +25,7 @@ var loop = new SeamlessLoop();
 
 
 window.onload = function() {
-    document.getElementById("firstRainSound").focus();
+    document.getElementById("natureSound_1").focus();
     setUp();
     start();
 };
@@ -30,9 +33,12 @@ window.onload = function() {
 function start() {
 
 
-    loop.addUri("sound/rain1-looped.mp3", 13000, "rain0");
-    loop.addUri("sound/rain2-looped.mp3", 14000, "rain1");
-    loop.addUri("sound/rain3-looped.mp3", 14000, "rain2");
+    loop.addUri("sound/Forest.mp3", 54000, "sound0");
+    loop.addUri("sound/Creek.mp3", 30000, "sound1");
+    loop.addUri("sound/Fireplace.mp3", 28000, "sound2");
+    loop.addUri("sound/River.mp3", 32000, "sound3");
+    loop.addUri("sound/Coast.mp3", 121000, "sound4");
+    loop.addUri("sound/Boat_Paddling.mp3", 17000, "sound5");
 }
 
 
@@ -41,28 +47,28 @@ function playSound(index) {
 
     var playPauseIcon = document.activeElement.childNodes;
     if (playing) {
-        for (let i = 0; i < rainSound.length; i++) {
+        for (let i = 0; i < natureSounds.length; i++) {
             document.getElementById(i).style.backgroundImage = "url(icons/playIcon.png)";
         }
         playedSound.pause();
         loop.stop();
     } else {
-        playedSound = rainSound[index];
+        playedSound = natureSounds[index];
         playedSound.loop = true;
         // playedSound.play();
-        loop.start("rain" + index);
+        loop.start("sound" + index);
         playPauseIcon[1].style.backgroundImage = "url(icons/pauseIcon.png)";
 
     }
 
     playing = !playing;
 
-    if (playedSound != rainSound[index]) {
+    if (playedSound != natureSounds[index]) {
 
-        playedSound = rainSound[index];
+        playedSound = natureSounds[index];
         playedSound.loop = true;
         // playedSound.play();
-        loop.start("rain" + index);
+        loop.start("sound" + index);
         playPauseIcon[1].style.backgroundImage = "url(icons/pauseIcon.png)";
         playing = !playing;
 
@@ -141,7 +147,10 @@ function setUp() {
     document.getElementById("0").style.backgroundImage = "url(icons/playIcon.png)";
     document.getElementById("1").style.backgroundImage = "url(icons/playIcon.png)";
     document.getElementById("2").style.backgroundImage = "url(icons/playIcon.png)";
-    document.getElementById("firstRainSound").focus();
+    document.getElementById("3").style.backgroundImage = "url(icons/playIcon.png)";
+    document.getElementById("4").style.backgroundImage = "url(icons/playIcon.png)";
+    document.getElementById("5").style.backgroundImage = "url(icons/playIcon.png)";
+    document.getElementById("natureSound_1").focus();
 
 }
 
@@ -161,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ad.on('display', () => document.getElementById("softKeysContainer").style.display = "none")
             ad.on('close', () => {
                 document.getElementById("softKeysContainer").style.display = "block";
-                document.getElementById("firstRainSound").focus();
+                document.getElementById("natureSound_1").focus();
             })
         }
     })
@@ -185,7 +194,7 @@ const interval = setInterval(() => {
             ad.on('display', () => document.getElementById("softKeysContainer").style.display = "none")
             ad.on('close', () => {
                 document.getElementById("softKeysContainer").style.display = "block";
-                document.getElementById("firstRainSound").focus();
+                document.getElementById("natureSound_1").focus();
             })
         }
     })
