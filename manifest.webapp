@@ -1,8 +1,8 @@
 {
-  "version": "1.0.1",
-  "name": "Rain Sounds",
-  "subtitle": "Rain Sounds",
-  "description": "Calming and relaxing rain sounds, that helps you study, fall asleep, or just relax with a cup of coffee, make sure you use headphones for best experience",
+  "version": "1.0.0",
+  "name": "Nature calm sounds",
+  "subtitle": "Nature calm sounds",
+  "description": "Enjoy calming sounds of mother nature, from calm beaches to chirping birds in a distant forest, or the cracking of camp fire, great for relaxing, studying, or falling asleep",
   "type": "web",
   "launch_path": "/index.html",
    "icons": {
@@ -21,14 +21,14 @@
   },
   "locales": {
     "en-US": {
-      "name": "Rain Sounds",
-      "subtitle": "Rain Sounds",
-      "description": "Calming and relaxing rain sounds, that helps you study, fall asleep, or just relax with a cup of coffee, make sure you use headphones for best experience"
+      "name": "Nature calm sounds",
+      "subtitle": "Nature calm sounds",
+      "description": "Enjoy calming sounds of mother nature, from calm beaches to chirping birds in a distant forest, or the cracking of camp fire, great for relaxing, studying, or falling asleep"
     },
     "ar-SA": {
-      "name": "صوت المطر",
-      "subtitle":"صوت المطر",
-      "description": "تطبيق يتيح لك الاستمتاع بصوت المطر, يساعدك على الاسترخاء والاستمتاع بجو المطر, احرص على استعمال السماعات لأفضل نتيجة"
+      "name": "أصوات طبيعة هادئة",
+      "subtitle":"أصوات طبيعة هادئة",
+      "description": "استرخ واستمتع بأصوات الطبيعة الأم, من الشواطئ الهادئة الى تغاريد الطيور في الغابات"
     }
   },
 
