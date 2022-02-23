@@ -5,7 +5,6 @@
 
 body {
     padding: 0;
-    padding-bottom: 5px;
     margin: 0;
 }
 
@@ -16,6 +15,7 @@ body {
     justify-content: space-between;
     width: 100%;
     height: 18.9rem;
+    margin-bottom: 20px;
 }
 
 #appIcon {
@@ -31,7 +31,6 @@ h4 {
 
 #buttonContainer {
     width: var(--unified-width);
-    margin-bottom: 5px;
 }
 
 #natureSound_1 {
@@ -79,7 +78,7 @@ h4 {
     font-family: var(--unified-font);
 }
 
-.rainSoundDescription {
+.natureSoundDescription {
     margin-right: 2rem;
     color: white;
     font-family: var(--unified-font);
