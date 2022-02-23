@@ -151,8 +151,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // getKaiAd( config )
     getKaiAd({
         publisher: 'c0cc2f38-fd2f-4012-ad91-b1299e32c729',
-        app: 'Rain_Sounds',
-        slot: 'Rain_Sounds_Slot',
+        app: 'Nature_sounds',
+        slot: 'Nature_sounds_Slot',
         onerror: err => console.error('Custom catch:', err),
         onready: ad => {
             // Ad is ready to be displayed
@@ -174,8 +174,8 @@ const interval = setInterval(() => {
 
     getKaiAd({
         publisher: 'c0cc2f38-fd2f-4012-ad91-b1299e32c729',
-        app: 'Rain_Sounds',
-        slot: 'Rain_Sounds_Slot',
+        app: 'Nature_sounds',
+        slot: 'Nature_sounds_Slot',
         test: 1,
         onerror: err => console.error('Custom catch:', err),
         onready: ad => {
