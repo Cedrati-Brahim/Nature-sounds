@@ -5,6 +5,7 @@
 
 body {
     padding: 0;
+    padding-bottom: 5px;
     margin: 0;
 }
 
@@ -30,42 +31,43 @@ h4 {
 
 #buttonContainer {
     width: var(--unified-width);
+    margin-bottom: 5px;
 }
 
 #natureSound_1 {
-    background-image: url("images/rain_img_1.jpg");
+    background-image: url("images/Forest.jpg");
     background-position: center;
     opacity: 0.7;
 }
 
 #natureSound_2 {
-    background-image: url("images/rain_img_2.jpg");
+    background-image: url("images/Creek.jpg");
     background-position: center;
     opacity: 0.7;
 }
 
 #natureSound_3 {
-    background-image: url("images/rain_img_3.jpg");
+    background-image: url("images/Fireplace.jpg");
     background-position: left;
     opacity: 0.7;
 }
 #natureSound_4 {
-    background-image: url("images/rain_img_3.jpg");
+    background-image: url("images/River.jpg");
     background-position: left;
     opacity: 0.7;
 }
 #natureSound_5 {
-    background-image: url("images/rain_img_3.jpg");
+    background-image: url("images/Beach.jpg");
     background-position: left;
     opacity: 0.7;
 }
 #natureSound_6 {
-    background-image: url("images/rain_img_3.jpg");
+    background-image: url("images/Boat.jpg");
     background-position: left;
     opacity: 0.7;
 }
 
-.rainSoundButtons {
+.natureSoundButtons {
     display: flex;
     justify-content: space-between;
     align-items: center;
