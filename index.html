@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Rain Sounds</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    <meta name="theme-color" content="rgb(255, 255, 255)">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="SeamlessLoop.js" defer></script>
+    <script src="app.js" defer></script>
+    <script src="kaiads.v4.min.js"></script>
+    <link rel="stylesheet" href="footerStyles.css">
+    <link rel="stylesheet" href="indexStyles.css">
+
+
+
+
+</head>
+
+<body>
+
+    <div id="appContainer">
+        <img src="icons/icon56x56.png" alt="icon" id="appIcon">
+        <h4>Rain Sounds</h4>
+        <div id="buttonContainer">
+            <div id="firstRainSound" class="items rainSoundButtons" tabindex="0" onclick="playSound(0)">
+                <div id="0" class="playButton"></div>
+                <p class="rainSoundDescription">Calm rain</p>
+            </div>
+            <div id="secondRainSound" class="items rainSoundButtons" tabindex="1" onclick="playSound(1)">
+                <div id="1" class="playButton"></div>
+                <p class="rainSoundDescription">Indoor Rain</p>
+            </div>
+            <div id="thirdRainSound" class="items rainSoundButtons" tabindex="2" onclick="playSound(2)">
+                <div id="2" class="playButton"></div>
+                <p class="rainSoundDescription">Heavy storm</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+<footer class="softkey">
+    <div id="softKeysContainer">
+        <div id="softkey-left"></div>
+        <div id="softkey-center">Play</div>
+        <div id="softkey-right"></div>
+    </div>
+</footer>
+
+</html>

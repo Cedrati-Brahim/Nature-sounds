@@ -1,0 +1,38 @@
+{
+  "version": "1.0.1",
+  "name": "Rain Sounds",
+  "subtitle": "Rain Sounds",
+  "description": "Calming and relaxing rain sounds, that helps you study, fall asleep, or just relax with a cup of coffee, make sure you use headphones for best experience",
+  "type": "web",
+  "launch_path": "/index.html",
+   "icons": {
+     "56": "/icons/icon56x56.png",
+     "112": "/icons/icon112x112.png"
+     
+  },
+  "permissions": {
+    "mobiledata":{},
+    "wifidata":{}
+  },
+  "developer": {
+    "name": "Narr",
+    "url": "none"
+    
+  },
+  "locales": {
+    "en-US": {
+      "name": "Rain Sounds",
+      "subtitle": "Rain Sounds",
+      "description": "Calming and relaxing rain sounds, that helps you study, fall asleep, or just relax with a cup of coffee, make sure you use headphones for best experience"
+    },
+    "ar-SA": {
+      "name": "صوت المطر",
+      "subtitle":"صوت المطر",
+      "description": "تطبيق يتيح لك الاستمتاع بصوت المطر, يساعدك على الاسترخاء والاستمتاع بجو المطر, احرص على استعمال السماعات لأفضل نتيجة"
+    }
+  },
+
+  "default_locale": "en-US",
+  "fullscreen": "true"
+
+}
